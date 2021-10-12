@@ -16,7 +16,7 @@ Please download dataset here:
 
 ## Pre-trained Weights
 
-Please download weights here:
+Please download pre-trained weights here:
 - [ResNet50 Weights](https://kaistackr-my.sharepoint.com/:u:/g/personal/jhyuk_kaist_ac_kr/ES-xEZwXYN9CnPrx_9ZN_P4BEznkZlGD10iwPVrz3vo1DQ?e=oyUj4k)
 
 ## Train
