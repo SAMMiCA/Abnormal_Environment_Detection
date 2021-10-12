@@ -12,6 +12,9 @@ pip install -r requirements.txt
 
 Please download dataset [here](https://kaistackr-my.sharepoint.com/:u:/g/personal/jhyuk_kaist_ac_kr/EcaeOeoYRGZKud2pInUuDU0BFlmcYNhiHwzSX6rJTXyyPA?e=reWSl6):
 
+## Pre-trained Weights
+
+Please download weights [here](https://kaistackr-my.sharepoint.com/:u:/g/personal/jhyuk_kaist_ac_kr/ES-xEZwXYN9CnPrx_9ZN_P4BEznkZlGD10iwPVrz3vo1DQ?e=oyUj4k):
 
 ## Train
 
