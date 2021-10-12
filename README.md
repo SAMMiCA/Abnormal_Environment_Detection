@@ -7,6 +7,12 @@ To install requirements:
 pip install -r requirements.txt
 ```
 
+
+## Dataset
+
+Please download dataset [Here](https://kaistackr-my.sharepoint.com/:u:/g/personal/jhyuk_kaist_ac_kr/EcaeOeoYRGZKud2pInUuDU0BFlmcYNhiHwzSX6rJTXyyPA?e=reWSl6):
+
+
 ## Train
 
 To train convolutional neural network (embedding):
