@@ -9,7 +9,7 @@ pip install -r requirements.txt
 
 ## Train
 
-To train convolutional neural network(embedding):
+To train convolutional neural network (embedding):
 ```
 cd Code
 python TRAIN_crossentropy.py # for training unsupervised setting
@@ -25,4 +25,8 @@ cd Code
 python VISUALIZE_crossentropy.py
 python VISUALIZE_crossentropy_finetune_with_supcon.py
 ```
-image
+
+<div align="center">
+  <img width="50%" alt="1" src="./Code/pictures/before_GT.png">
+</div>
+
