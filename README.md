@@ -27,6 +27,11 @@ python VISUALIZE_crossentropy_finetune_with_supcon.py
 ```
 
 <div align="left">
-  <img width="50%" alt="1" src="./Code/pictures/before_GT.png">
+  <img width="40%" alt="1" src="./Code/pictures/before_GT.png">
 </div>
+
+<div align="right">
+  <img width="40%" alt="1" src="./Code/pictures/before_KMeans.png">
+</div>
+
 
