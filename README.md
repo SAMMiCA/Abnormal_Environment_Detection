@@ -1,4 +1,4 @@
-# Abnormal Situation Detection
+# Abnormal Environment Detection
 
 ## Enviroment setup
 
