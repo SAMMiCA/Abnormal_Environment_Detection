@@ -1,4 +1,4 @@
-# Abnormal_Situation_Clustering
+# Abnormal Situation Detection
 
 ## Enviroment setup
 
