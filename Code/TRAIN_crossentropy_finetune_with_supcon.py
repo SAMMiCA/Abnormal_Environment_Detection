@@ -1,20 +1,21 @@
+import os
+import pdb
+import warnings
+from itertools import permutations
+
+import matplotlib.pyplot as plt
+import numpy as np
 import torch
-import torchvision.models as models
-from torchvision.datasets import ImageFolder
 import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
-from torchvision import transforms, utils
-import os
-import pdb
-import numpy as np
-import matplotlib.pyplot as plt
+import torchvision.models as models
 from pytorch_metric_learning import losses
-from sklearn.manifold import TSNE
 from sklearn.cluster import KMeans
+from sklearn.manifold import TSNE
 from sklearn.metrics import jaccard_score
-import warnings
-from itertools import permutations
+from torchvision import transforms, utils
+from torchvision.datasets import ImageFolder
 
 warnings.simplefilter("ignore", UserWarning)
 

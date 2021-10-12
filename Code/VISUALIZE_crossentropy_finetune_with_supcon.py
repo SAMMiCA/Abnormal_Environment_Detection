@@ -1,24 +1,24 @@
+import os
+import pdb
+import random
+from itertools import permutations
+
+import matplotlib.pyplot as plt
+import numpy as np
 import torch
-import torchvision.models as models
-from torchvision.datasets import ImageFolder
 import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
-from torchvision import transforms, utils
-import os
-import pdb
-import numpy as np
-import matplotlib.pyplot as plt
-from sklearn.manifold import TSNE
-from sklearn.cluster import KMeans
-from sklearn.cluster import DBSCAN
+import torchvision.models as models
 from sklearn import metrics
-
+from sklearn.cluster import DBSCAN, KMeans
+from sklearn.manifold import TSNE
+from sklearn.metrics import jaccard_score, silhouette_samples, silhouette_score
 from sklearn.neighbors import KNeighborsClassifier
 from torch.utils.data import TensorDataset
-import random
-from sklearn.metrics import jaccard_score, silhouette_samples, silhouette_score
-from itertools import permutations
+from torchvision import transforms, utils
+from torchvision.datasets import ImageFolder
+
 
 def remap_labels(pred_labels, true_labels):
     """Rename prediction labels (clustered output) to best match true labels."""
@@ -146,6 +146,7 @@ print(f'NMI score : {metrics.normalized_mutual_info_score(labels,remapped_labels
 
 # binart recall check
 from sklearn.metrics import recall_score
+
 # recall = recall_score(labels, remapped_labels)
 
 def convert_binary(array, idx):
