@@ -36,7 +36,6 @@ To evaluate and visualize after finetuning:
 ```
 cd Code
 python VISUALIZE_crossentropy_finetune_with_supcon.py
-
 ```
 <div align="center">
   <img width="30%" alt="1" src="./Code/pictures/after_GT.png">
