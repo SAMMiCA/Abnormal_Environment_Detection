@@ -19,7 +19,7 @@ python TRAIN_crossentropy_finetune_with_supcon.py # for finetuning
 
 ## Evaluation
 
-To evaluate and visualize:
+To evaluate and visualize before finetuning:
 ```
 cd Code
 python VISUALIZE_crossentropy.py
@@ -32,7 +32,7 @@ python VISUALIZE_crossentropy.py
   Clustering Results before finetuning.
 </div>
 
-To evaluate and visualize:
+To evaluate and visualize after finetuning:
 ```
 cd Code
 python VISUALIZE_crossentropy_finetune_with_supcon.py
