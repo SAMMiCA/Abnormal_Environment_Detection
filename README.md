@@ -28,8 +28,17 @@ python VISUALIZE_crossentropy_finetune_with_supcon.py
 
 <div align="center">
   <img width="40%" alt="1" src="./Code/pictures/before_GT.png">
-
   <img width="40%" alt="1" src="./Code/pictures/before_KMeans.png">
 </div>
+<div align="center">
+  Clustering Results before finetuning.
+</div>
 
+<div align="center">
+  <img width="40%" alt="1" src="./Code/pictures/after_GT.png">
+  <img width="40%" alt="1" src="./Code/pictures/after_KMeans.png">
+</div>
+<div align="center">
+  Clustering Results after finetuning.
+</div>
 
