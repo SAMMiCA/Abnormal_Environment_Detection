@@ -14,7 +14,8 @@ pip install -r requirements.txt
 To train convolutional neural network(embedding):
 ```
 cd Code
-
+python TRAIN_crossentropy.py # for train unsupervised setting
+python TRAIN_crossentropy_finetune_with_supcon.py # for finetuning
 ```
 
 
@@ -22,7 +23,9 @@ cd Code
 
 ## Evaluation
 
-To install requirements:
+To evaluate and visualize:
 ```
-pip install -r requirements.txt
+cd Code
+python VISUALIZE_crossentropy.py # for train unsupervised setting
+python VISUALIZE_crossentropy_finetune_with_supcon_NMI.py # for finetuning
 ```
