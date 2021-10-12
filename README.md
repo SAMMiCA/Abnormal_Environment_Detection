@@ -27,5 +27,5 @@ To evaluate and visualize:
 ```
 cd Code
 python VISUALIZE_crossentropy.py # for train unsupervised setting
-python VISUALIZE_crossentropy_finetune_with_supcon_NMI.py # for finetuning
+python VISUALIZE_crossentropy_finetune_with_supcon.py # for finetuning
 ```
