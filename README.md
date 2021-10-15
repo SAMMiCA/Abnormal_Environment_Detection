@@ -37,8 +37,8 @@ cd Code
 python VISUALIZE_crossentropy.py
 ```
 <div align="center">
-  <img width="30%" alt="1" src="./Code/pictures/before_GT.png">
-  <img width="30%" alt="1" src="./Code/pictures/before_KMeans.png">
+  <img width="30%" alt="1" src="./fig/before_GT.png">
+  <img width="30%" alt="1" src="./fig/before_KMeans.png">
 </div>
 <div align="center">
   Clustering Results before Finetuning.
@@ -50,8 +50,8 @@ cd Code
 python VISUALIZE_crossentropy_finetune_with_supcon.py
 ```
 <div align="center">
-  <img width="30%" alt="1" src="./Code/pictures/after_GT.png">
-  <img width="30%" alt="1" src="./Code/pictures/after_KMeans.png">
+  <img width="30%" alt="1" src="./fig/after_GT.png">
+  <img width="30%" alt="1" src="./fig/after_KMeans.png">
 </div>
 <div align="center">
   Clustering Results after Finetuning.
